@@ -1,0 +1,7 @@
+streamlit
+requests
+bs4
+langchain
+langchain_community
+langchain_google_genai
+
