@@ -1,4 +1,5 @@
 # MediumBrief
+<img src="MediumBrief.png" alt="MediumBrief" width="300"/>
 
 ## Overview
 
