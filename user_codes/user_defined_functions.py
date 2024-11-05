@@ -27,7 +27,6 @@ class Website:
         self.text = soup.body.get_text(separator="\n", strip=True)
 
 def llm_model():
-    GOOGLE_API_KEY = "AIzaSyBllIaoCcbkC7G4Dv4Vem6cmuwhJ81qtgI"
     os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
     google_llm = ChatGoogleGenerativeAI(model='gemini-1.0-pro')
     return google_llm
